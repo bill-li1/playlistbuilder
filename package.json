@@ -1,0 +1,16 @@
+{
+  "name": "rate-limited-load-balancer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/server.ts",
+    "dev": "bun --watch run src/server.ts",
+    "start:backends": "bun run test/servers/backend.ts",
+    "test": "bun run test/test.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "^1.2.4",
+    "bun-types": "latest"
+  }
+}
